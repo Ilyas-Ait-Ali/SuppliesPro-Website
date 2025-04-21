@@ -1,0 +1,75 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #002B5B;
+  color: white;
+}
+
+.logo a {
+  text-decoration: none;
+  color: #FF6F00; 
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.logo a:hover {
+  color: #FFC107; 
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.1em;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #FFC107;
+}
+
+.user-section {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.user-section a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.1em;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.user-section a:hover {
+  color: #FFC107;
+}
+
+.cart-icon {
+  position: relative;
+  font-size: 1.5em;
+}
+
+.cart-icon .fas {
+  color: white;
+}
+
+.cart-count {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  padding: 2px 6px;
+  font-size: 0.8em;
+  font-weight: bold;
+}

@@ -1,0 +1,49 @@
+.compare-page {
+  padding: 20px;
+}
+
+.compare-page h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #002B5B;
+}
+
+.compare-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.compare-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  background-color: #f8f9fa;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+.compare-card img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.compare-card h3 {
+  color: #002B5B;
+  margin-bottom: 10px;
+}
+
+.compare-card p {
+  margin: 5px 0;
+}
+
+.compare-card ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.compare-card ul li {
+  margin-bottom: 5px;
+}
