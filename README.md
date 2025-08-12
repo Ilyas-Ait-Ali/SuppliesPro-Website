@@ -12,6 +12,7 @@
 - Responsive design for all devices
 - Smooth navigation with React Router
 - Stylish icons with Font Awesome
+- Lighthouse Performance Score: **98**
 
 ---
 
